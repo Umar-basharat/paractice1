@@ -1,0 +1,1 @@
+document.write("ye to ho ga ");
