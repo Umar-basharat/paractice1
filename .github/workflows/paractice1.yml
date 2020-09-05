@@ -30,6 +30,6 @@ jobs:
       - name: install surge 
         run: npm install -g surge
       - name: web deploy  
-        run: surge ./ umarnew.surge.sh --token $ {{ secrects.SURGE_TOKEN }}
+        run: surge ./ umarnew.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
           echo Add other actions to build,
           echo test, and deploy your project.
